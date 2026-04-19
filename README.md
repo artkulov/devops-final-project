@@ -9,20 +9,23 @@
 - Систему резервного копирования
 
 ## Структура репозитория
-├── scripts/ # Bash-скрипты автоматизации
-│ ├── setup-pki.sh
-│ ├── setup-monitoring.sh
-│ ├── setup-node-exporter.sh
-│ └── setup-openvpn-exporter.sh
-├── packages/ # Deb-пакеты
-│ ├── easy-rsa-config_1.0_all.deb
-│ ├── prometheus-config_1.0_all.deb
-│ └── alertmanager-config_1.0_all.deb
-├── docs/ # Документация
-│ ├── Этап_4_Резервное_копирование.docx
-│ ├── backup-plan.md
-│ └── disaster-recovery.md
+<pre>
+devops-final-project/
+├── <b>scripts/</b>
+│   ├── setup-pki.sh
+│   ├── setup-vpn.sh
+│   ├── setup-monitoring.sh
+│   ├── setup-node-exporter.sh
+│   └── setup-openvpn-exporter.sh
+├── <b>packages/</b>
+│   ├── easy-rsa-config_1.0_all.deb
+│   ├── prometheus-config_1.0_all.deb
+│   ├── alertmanager-config_1.0_all.deb
+│   └── vpn-server-config_1.0_all.deb
+├── <b>docs/</b>
+│   └── Резервное_копирование.docx
 └── README.md
+</pre>
 
 ## Серверы инфраструктуры
 

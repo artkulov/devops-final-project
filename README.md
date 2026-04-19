@@ -12,11 +12,13 @@
 <pre>
 devops-final-project/
 ├── <b>scripts/</b>
-│   ├── setup-pki.sh
-│   ├── setup-vpn.sh
-│   ├── setup-monitoring.sh
-│   ├── setup-node-exporter.sh
-│   └── setup-openvpn-exporter.sh
+│   ├── setup-pki.sh                 # Установка PKI (Этап 1)
+│   ├── setup-vpn.sh                 # Установка OpenVPN (Этап 2)
+│   ├── setup-monitoring.sh          # Установка Prometheus (Этап 3)
+│   ├── setup-node-exporter.sh       # Установка Node Exporter
+│   ├── setup-openvpn-exporter.sh    # Установка OpenVPN Exporter
+│   ├── backup-pki.sh                # Бэкап PKI (Этап 4)
+│   └── restore-pki.sh               # Восстановление PKI (Этап 4)
 ├── <b>packages/</b>
 │   ├── easy-rsa-config_1.0_all.deb
 │   ├── prometheus-config_1.0_all.deb
